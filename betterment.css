@@ -1,0 +1,459 @@
+*{
+}
+.first-bar{
+    display: flex;
+    background: black;
+    color: white;
+    gap: 1.5cm;
+    padding:0;
+}
+.first-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: bold;
+}
+.un a{
+    text-decoration: underline;
+    padding-left: 5cm;
+}
+.first-bar a:hover{
+    color: rgba(255, 255, 255, 0.704);
+}
+.second{
+    background: #000b50;
+}
+.youu{
+    position: relative;
+    top: 0.1cm;
+    
+}
+.second-bar{
+    display: flex;
+    gap: 1cm;
+    padding-left: 5cm;
+    color: white;
+    padding-top: 0.5cm;
+}
+.bet a{
+    color: white;
+    font-size: 18px;
+}
+.inf a{
+    color: white;
+    padding-left: 5cm;
+    text-decoration: none;
+    position: relative;
+    top: -1.5cm;
+}
+.inf a:hover{
+    text-decoration: underline;
+}
+.second-bar button{
+    width: 4cm;
+    height: 1.5cm;
+    background: #1d6ae5;
+    color: white;
+    border-radius: 5px;
+}
+.second-bar button:hover{
+   background-color:  #000b50;
+}
+.Overall{
+    background: #000b50;
+    display: flex;
+}
+.third{
+    background: #000b50;
+    padding-top: 0.3cm;
+    color: white;
+}
+.third h1{
+    padding-left: 5cm;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.turn{
+    margin-left: 5cm;
+    position: relative;
+    top: -0.9cm; 
+}
+.inside{
+    display: flex;
+    gap: 1cm;
+    padding-left: 5cm;
+}
+.img{
+    position: relative;
+    left: 4cm;
+    padding-top: 0.5cm;
+}
+.yup{
+    padding-left: 5cm;
+}
+.yup a{
+    color: white;
+}
+.stick{
+    position: sticky;
+    top: 0;
+    padding: 17px;
+    border: solid #ffffff;
+    background: white;
+    display: flex;
+    gap: 1cm;
+    padding-left: 8cm;
+    font-size: larger;
+    position: sticky;
+}
+.stick :hover{
+    text-decoration: underline;
+}
+.fourth{
+    padding-left: 5cm;
+    display: flex;
+    gap: 4cm;
+    padding-top: 3cm;
+}
+.buy{
+    display: flex;
+    gap: 0.5cm;
+}
+.buy button{
+    background: #1d6ae5;
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+} 
+.buy button:hover{
+    background:  #000b50;
+}
+.buy a{
+    text-decoration: none;
+}
+.buy a:hover{
+    text-decoration: underline;
+}
+.loud{
+    display: flex;
+    gap: 2cm;
+    padding-left: 5cm;
+    margin-top: 2cm;
+}
+.loud p{
+    color: #6d6d6d;
+}
+.loud img{
+    width: 180px;
+}
+.alone{
+    margin-left: 5cm;
+    margin-top: 1.5cm;
+    color: #6d6d6d;
+}
+.alone a{
+    text-decoration: none;
+}
+.alone a:hover{
+    text-decoration: underline;
+}
+.all{
+    background: #e3f8ff;
+}
+.begin{
+    display: flex;
+    padding-left: 5cm;
+}
+.begin h1{
+    padding-top: 2cm;
+}
+.begin button{
+    background: #1d6ae5;
+    color: #ffffff;
+    width: 120px;
+    height: 1.2cm;
+    border-radius: 5px;
+}
+.begin button:hover{
+    background:  #000b50;
+}
+.twerk a{
+    text-decoration: none;
+    margin-left: 0.3cm;
+}
+.twerk a:hover{
+    text-decoration: underline;
+}
+.ink{
+    padding-top: 1cm;
+}
+.bang{
+    color: #6d6d6d;
+}
+.inf{
+    margin-left: 2cm;
+    margin-top: 2cm;
+}
+.last{
+    padding-left: 5cm;
+    color: #6d6d6d;
+    
+}
+.lasts{
+    padding-left: 5cm;
+    padding-bottom: 1cm;
+    color: #6d6d6d;
+    position: relative;
+    top: -0.5cm;
+}
+.last a{
+    text-decoration: none;
+}
+.last a:hover{
+    text-decoration: underline;
+}
+.hulk{
+    display: flex;
+    gap: 0.5cm;
+}
+.hulk p{
+    color: #6d6d6d;
+}
+.hulk img{
+    font-size: 20px;
+}
+.rome{
+    display: flex;
+    padding-top: 2cm;
+}
+.ret{
+    padding-left: 5cm;
+}
+.but{
+    margin-left: 3cm;
+}
+.who button{
+    background: #1d6ae5;
+    color: white;
+    width: 150px;
+    height: 1.3cm;
+    border-radius: 5px;
+}
+.who a{
+    margin-left: 0.5cm;
+    text-decoration: none;
+}
+.who button:hover{
+    background: #000b50;
+}
+.who a:hover{
+    text-decoration: underline;
+}
+.yay{
+    text-align: center;
+    color: #6d6d6d;
+}
+.yay a{
+    text-decoration: none;
+}
+.yay a:hover{
+    text-decoration: underline;
+}
+.moon{
+    text-align: center;
+    padding-top: 2cm;
+    font-size: x-large;
+}
+.kar{
+    text-align: center;
+    padding-top: 0.5cm;
+}
+.hr{
+    margin-left: 10.5cm;
+    margin-right: 10.5cm;
+}
+.tree{
+    text-align: center;
+    padding-top: 1cm;
+}
+.tree a{
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    gap: 0.5cm;
+    padding-left: 3cm;
+    margin-bottom: -2cm;
+}
+.cup{
+    display: flex;
+    width: 400px;
+    border-radius: 4px;
+    gap: 0.5cm;
+    border: solid white;
+}
+.cup p{
+    color: #6d6d6d;
+    position: relative;
+    top: -0.5cm;
+    left: -0.6cm;
+}
+.cud{
+    color: #6d6d6d;
+    margin-left:0.1cm;
+}
+.cur{
+    margin-right: 1.5cm;
+}
+.true{
+    background: #000b50;
+    color: white;
+}
+.true h1{
+    text-align: center;
+    padding-top: 3.5cm;
+    
+}
+.true button{
+    width: 500px;
+    display: block;
+    height: 100px;
+    margin: auto;
+}
+.move{
+    display: flex;
+    padding-left: 5cm;
+    padding-top: 3cm;
+}
+.move h1{
+    position: relative;
+    top: -3cm;
+}
+.moves{
+    padding-left: 12cm;
+    position: relative;
+    top: -1cm;
+}
+.moves p{
+    padding-right: -5cm;
+}
+.moves hr{
+    margin-top: 0.5cm;
+    width: 500px;
+    margin-right: 2cm;
+}
+.opps{
+    padding-left: 7cm;
+}
+.oppo{
+    padding-left: 8cm;
+}
+.oppe{
+    padding-left: 6.7cm;
+}
+.opp{
+    padding-left: 5.9cm;
+}
+.mon{
+    text-align: center;
+    margin-top: -1cm;
+    background: #fee27d;
+    padding: 1cm;
+    clip-path: polygon(56% 0, 100% 5%, 100% 50%, 100% 100%, 0 100%, 0 9%);
+}
+.mon h1{
+    padding-top: 3cm;
+}
+.mon button{
+    background: #1d6ae5;
+    color: #ffffff;
+    width: 4cm;
+    height: 1.3cm;
+    border-radius: 5px;
+}
+.mon button:hover{
+    background: #000b50;
+}
+.tue{
+    background: #000b50;
+    color: white;
+    /* margin-top: -1.5cm; */
+}
+.nut{
+    padding-top: 5cm;
+}
+.tue a{
+    color: white;
+}
+.tue a:hover{
+    color: gainsboro;
+}
+.tue blockquote{
+    margin-top: 0;
+    margin-left: 3.2cm;
+    font-size: medium;
+}
+.int{
+    margin-top: 3cm;
+    font-size: xx-small;
+}
+.geo{
+    display: flex;
+    gap: 2cm;
+    padding-left: 7cm;
+    padding-top: 2cm;
+}
+.geo a{
+    text-decoration: none;
+}
+.geo a:hover{
+    text-decoration: underline;
+}
+.cut{
+    margin-top: 1.5cm;
+}
+.hut{
+    margin-left: 3.5cm;
+    margin-right: 5cm;
+}
+.soc{
+    display: flex;
+    gap: 0.5cm;
+    padding-left: 4cm;
+}
+.sof{
+    font-size: larger;
+}
+.doom{
+    margin-left: 8.5cm;
+}
+.doom a{
+    text-decoration: none;
+}
+.doom a:hover{
+    text-decoration: underline;
+}
+.drum a{
+     text-decoration: none;
+}
+.drum a:hover{
+    text-decoration: underline;
+}
+.jew{
+    margin-left: 3.2cm;
+    margin-right: 4cm;
+}
+.block{
+    display: flex;
+    padding-left: 3.2cm;
+    gap: 1cm;
+}
+.kin{
+    position: relative;
+    right: 0.9cm;
+    top: 0.2cm;
+}
+
+  
+
+

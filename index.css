@@ -1,0 +1,32 @@
+.ops{
+    height: 100px;
+    width: 150px;
+    margin-left: 4cm;
+    margin-top: 6cm;
+    display: block;
+    /* z-index: -2; */
+    background: red;
+}
+.ore{
+    height: 100px;
+    width: 150px;
+    margin-left: 4cm;
+    margin-top: 0;
+    display: block;
+    position: relative;
+    top: -2cm;
+    left: 4cm;
+    background: greenyellow;
+}
+.off{
+    height: 100px;
+    width: 150px;
+    margin-left: 4cm;
+    margin-top: 0;
+    display: block;
+    position: relative;
+    top: -1cm;
+    left: 2cm;
+    /* z-index: -2; */
+    background: tomato;
+}

@@ -1,0 +1,81 @@
+.gut{
+    /* display: flex;
+    margin-left: 3cm;
+    gap: 0.5cm; */
+}
+*{
+}
+.first-bar{
+    border-bottom: 2px solid whitesmoke;
+}
+.brt input{
+    width: 4cm;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+
+}
+.grind{
+    border-bottom: 2px solid whitesmoke;
+    margin-top: 1cm;
+}
+.gun{
+    margin-top: 1cm;
+}
+.brun{
+    margin-top: 1cm;
+    border-bottom: 2px solid whitesmoke;
+}
+.got{
+    margin-top: 1cm;
+    border-bottom: 2px solid whitesmoke;
+}
+.got a{
+    text-decoration: none;
+    color: black;
+}
+.got a:hover{
+    text-decoration: underline;
+}
+.bread, .beans{
+    display: flex;
+    font-size: 10px;
+}
+.moon{
+    margin-top: 2cm;
+    border-bottom: 2px solid whitesmoke;
+    
+}
+.reel{
+    margin-top: 2cm;
+}
+.reel img{
+    margin-top: 0.2cm;
+}
+.vet{
+    margin-top: 2cm;
+    border-bottom: 2px solid whitesmoke;
+}
+.container-fluid{
+    background: #f2f4f5;
+}
+.input{
+    width: 400px;
+}
+.img{
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+img:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 18px 32px -18px black;
+}
+.crew{
+position: relative;  
+}
+.tea{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    z-index: 2;
+}

@@ -1,0 +1,50 @@
+.customers{
+    border-collapse: collapse;
+    width: 500px;
+    position: relative;
+    top: 4cm;
+}
+.customers td,.customers th{
+    border: 1px solid black;
+    padding: 8px;
+}
+.customers th{
+    background: red;
+    color: white;
+    text-align: left;
+}
+.customers tr:hover{
+    background: #f2f2f2;;
+
+}
+.customers tr:first-child(even){
+    background: #ddd;
+}
+q:lang(yes) {
+        quotes: "~" "~";
+}
+p{
+    border: 2px solid yellow;
+}
+.grid{
+    display: grid;
+}
+.pre{
+    display: inline grid;
+    column-gap:0.5cm;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+}
+.boy{
+    padding: 20px;
+    background: red;
+    font-size: 30px;
+    border: 2px solid black;
+    text-align: center;
+}
+.girl{
+    padding: 20px;
+    font-size: 30px;
+    border: 2px solid black;
+    text-align: center;
+}

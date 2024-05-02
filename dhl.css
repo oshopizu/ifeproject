@@ -1,0 +1,392 @@
+.first-bar{
+    display: flex;
+    background:linear-gradient(to right, #ffd11d, #fee66e);
+    padding: 12px;
+    gap: 0.5cm;
+    position: sticky;
+    top: 0;
+}
+.move{
+    margin-left: 18cm;
+}
+.first-bar img{
+    margin-left: 3cm;
+    font-weight: bolder;
+}
+.move a{
+    text-decoration: none;
+    color: black;
+}
+.moves a{
+    text-decoration: none;
+    color: black;
+}
+.move a:hover, .moves a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.second-bar{
+    display: flex;
+    gap: 1.8cm;
+    padding-left: 3.3cm;
+}
+.second-bar a{
+    text-decoration: none;
+    color: black;
+}
+.gre{
+    padding-left: 12cm;
+}
+.second-bar a:hover, .gre a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.phase h1{
+    color: white;
+    margin-left: 11cm;
+    padding-top: 3cm;
+}
+.hint{
+    margin-left: 14cm;
+    width: 400px;
+    height: 50px;
+    border-radius: 2px;
+    border: 2px solid white;
+    outline: none;
+    padding: 0px 10px;
+}
+.phase{
+    background-image: url(delivery-man.jpeg);
+    background-size: 100%;
+    background-position: center;
+    height: 50vh;
+}
+.mad{
+    display: flex;
+}
+.rude {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 55px;
+    border-radius: 1px;
+    margin-top: -0cm;
+    border: 1px solid white;
+}
+.bord{
+    display: flex;
+}
+.fbo{
+    border: 5px solid white;
+    background: white;
+    border-radius: 5px;
+    margin-top: 2cm;
+    width: 300px;
+    margin-left: 6cm;
+}
+.fbo:hover{
+    box-shadow: 0px 0px 1px 0px;
+    border: 2px solid white;
+}
+.fbo img{
+    margin-left: 4cm;
+}
+.fbo p{
+    text-align: center;
+    margin-top: -0.1cm;
+    font-size: medium;
+}
+.ur{
+    color: #ae936ef7;
+    margin-top: -0.4cm;
+}
+.bbo{
+    border: 5px solid white;
+    background: white;
+    border-radius: 5px;
+    margin-top: 2cm;
+    width: 300px;
+}
+.bbo:hover{
+    box-shadow: 1px 0px 1px 0px;
+    border: 1px solid white;
+}
+.bbo img{
+    margin-left: 4cm;
+}
+.bbo p{
+    text-align: center;
+    margin-top: -0.1cm;
+    font-size: medium;
+}
+.gru{
+    color: #ae936ef7;
+    margin-top: -0.4cm; 
+}
+.obo{
+    border: 5px solid white;
+    background: white;
+    border-radius: 5px;
+    margin-top: 2cm;
+    width: 300px;
+    margin-top: 1cm;
+}
+.obo:hover{
+    box-shadow: 0px 0px 1px 0px;
+    border: solid white;
+}
+.obo img{
+    margin-left: 3.5cm;
+    margin-top: 0.5cm;
+}
+.obo p{
+    text-align: center;
+    margin-top: -0.1cm;
+    font-size: medium;
+}
+.pup{
+    color: #ae936ef7;
+    margin-top: -0.5cm;
+}
+.gun{
+    display: flex;
+    margin-top: 180px;
+    margin-left: 30px;
+    gap: 2cm;
+}
+.for{
+    display: flex;
+    gap: 1cm;
+}
+.text{
+    border: 1px solid #ddd;
+    height: 80vh;
+    width: 80%;
+}
+.bang{
+    background: #fff;
+    padding: 30px;
+}
+.bang h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.bang span{
+    font-size: 30px;
+    border-bottom: 3px solid #999;
+    padding-bottom: 20px;
+}
+.bang p{
+    font-size: 19px;
+    margin-top: 30px;
+}
+.minimg img{
+    width: 760px;
+    height: 90vh;
+}
+.top{
+    background: #ddd;
+    height: 27vh;
+    padding-top: 10px;
+}
+.top h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    padding-bottom: -50px;
+}
+.top .p-tag{
+    display: flex;
+    flex-wrap: wrap;
+}
+.p-tag p{
+    margin-left: 30px;
+}
+.only{
+    padding-left: 20px;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 36px;
+}
+.btn button{
+    background: #cb0303;
+    color: #fff;
+    padding: 17px 190px;
+    border: none;
+    border-radius: 4px;
+    font-size: 19px;
+}
+.sphase{
+    display: flex;
+    margin-top: 180px;
+    margin-left: 2cm;
+    gap: 2cm;
+}
+.sphase span{
+    font-size: 30px;
+    border-bottom: 3px solid #999;
+    padding-bottom: 20px;
+    margin-left: 1cm;
+}
+.other{
+    border: 3px solid whitesmoke;
+    width: 600px;
+    height: 75vh;
+    position: relative;
+    right: 2.5cm;
+    z-index: -3;
+    border-left: 18px;
+}
+.other h1, p{
+    margin-left: 1cm;
+}
+.sphase p{
+    font-size: 19px;
+    margin-top: 30px;
+}
+.edy{
+    background: #ddd;
+    padding: 25px;
+}
+.edy h3{
+    margin-left: 0.5cm;
+}
+.crazy{
+    display: flex;
+    gap: 4cm;
+    margin-left: 0.5cm;
+    margin-top:-0.5cm ;
+}
+.oops{
+    margin-top: 20px;
+    margin-left: 36px;
+}
+.oops button{
+    background: #cb0303;
+    color: #fff;
+    padding: 17px 170px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.gallery{
+    border: 2px solid whitesmoke;
+    border-radius: 3px;
+   width: 600px;
+   margin-left: 3cm;
+   margin-top: 2cm;
+   display: flex;
+   gap: 1cm;
+}
+.gallery h3{
+    margin-left: 1cm;
+}
+.gallery h3 a{
+    text-decoration:none;
+    color: black;
+}
+.gallery p a{
+     text-decoration: none;
+     color: black;
+}
+.gallery:hover{
+    border: 3px solid whitesmoke;
+    box-shadow: 0px 0px 1px 0px;
+    
+}
+.gallery h3 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.big:hover{
+    box-shadow: 3px solid whitesmoke;
+    box-shadow: 0px 0px 1px 0px;
+}
+.hang{
+    padding: 15px;
+}
+.big{
+    border: 2px solid whitesmoke;
+    border-radius: 3px;
+}
+.lab{
+    display: flex;
+    margin-top: 1.5cm;
+    border-top: 2px solid whitesmoke;
+}
+.lab p{
+    margin-left: 5cm;
+}
+.lab p a{
+    text-decoration: none;
+    color: #757272;
+}
+.lab p a:hover{
+    text-decoration: underline;
+    color: #999;
+}
+.edd{
+    margin-top: 1cm;
+    color: red;
+}
+.edds{
+    margin-top: 1cm;
+}
+.sun{
+    display: flex;
+    gap: 0.3cm;
+    margin-left: 3cm;
+}
+.raw{
+    display: flex;
+}
+.sun a{
+    text-decoration: none;
+    color: #757272;
+}
+.sun a:hover{
+    text-decoration: underline;
+    color: #999;
+}
+.raw img{
+    margin-left: 4cm;
+    margin-top: 1cm;
+}
+.raw{
+    display: flex;
+    gap: 17cm;
+}
+ .inks{
+    display: flex;
+}
+.inks a{
+    color: #a1a1a1;
+    font-size: 25px;
+    gap: -1cm;
+    position: relative;
+    right: 1cm;
+    top: -0.7cm;
+}
+.inks i:hover{
+    text-decoration: underline;
+}
+.force{
+    background: #f2f2f2;
+    padding: 20px;
+}
+.end{
+    text-align: center;
+    color:  #999;
+}
+.err{
+    margin-left: 4cm;
+}
+.err a{
+    text-decoration: none;
+    color:#757272;
+}
+.err a:hover{
+    text-decoration: underline;
+    color: #999;
+}
