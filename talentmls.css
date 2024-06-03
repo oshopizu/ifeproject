@@ -1,0 +1,14 @@
+.huh a:hover{
+    text-decoration: underline !important;
+}
+label{
+    text-align: right;
+}
+@media screen  and (max-width: 1024px){
+    label , input{
+        display: block;
+    }
+    label{
+        text-align: left;
+    }
+}
